@@ -1,0 +1,109 @@
+    /* Name: Hridaya Mishra
+    Std ID: 2228045 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling  */
+body{
+    font-family:'Roboto', sans-serif;
+    /* background-color: #95D1CC; */
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./background.jpg");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: hidden; */
+}
+
+/* container body styling */
+.container{
+    background: #ede6e68f;
+    margin: 120px auto;
+    padding: 10px;
+    padding-bottom: 30px;
+    width: 40%;
+    height: 435px;
+    border-radius: 13px;
+    color: #363535;
+    box-shadow:  5px 8px 12px #352828;
+    
+}
+
+/* Date h2 styling */
+.date-day{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#date{
+    margin: 15px;
+    font-size: 22px;
+}
+
+#day{
+    margin:15px;
+}
+
+/* img styling */
+img{
+    cursor: pointer;
+}
+/* Content  top styling */
+.content{
+    padding: 15px;
+}
+.content-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-top img{
+    width: 250px;
+    height: 200px;
+}
+/* temperature styling */
+
+.content-top .temperature{
+    font-size: 80px;
+}
+
+/* Content bottom styling */
+
+.content-bottom{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Weather conditions Styling */
+
+.conditions{
+    padding: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* City and weather status styling */
+.city-status{
+    margin-top: 17px;
+}
+.city-status p{
+    font-size: 22px;
+    line-height: 1.5;
+    margin: 7px;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
